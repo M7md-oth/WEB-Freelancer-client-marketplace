@@ -1,0 +1,18 @@
+.env
+.env.local
+
+# Runtime uploads
+std1221175/uploads/profiles/*
+std1221175/uploads/services/*
+std1221175/uploads/orders/*
+
+# Keep upload directories in source control
+!std1221175/uploads/profiles/.gitkeep
+!std1221175/uploads/services/.gitkeep
+!std1221175/uploads/orders/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
